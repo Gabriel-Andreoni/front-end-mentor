@@ -190,10 +190,6 @@ body {
         border-bottom-left-radius: 0;
     }
 
-    .conteudo__suvs {
-
-    }
-
     .conteudo__luxury {
         border-top-right-radius: 0;
         border-bottom-left-radius: .5em;
@@ -201,5 +197,8 @@ body {
 
     .attribution {
         width: 100%;
+
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
     }
 }
