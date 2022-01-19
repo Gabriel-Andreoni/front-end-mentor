@@ -164,34 +164,9 @@ body {
     text-decoration: none;
 }
 
-.attribution a:hover::after {
-    content: '';
-    
-    display: block;
-
-    position: absolute;
-    top: 100%;
-    left: 0;
-
-    width: 50%;
-    height: 5%;
-
-    background: #f2f2f2;
-
-    animation: animation-lateral .3s linear;
+.attribution a:hover {
+    text-decoration: underline;
 }
-
-
-@keyframes animation-lateral {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(0%);
-    }
-}
-
 @media screen and (max-width:375px) {
     body {
         flex-direction: row;
